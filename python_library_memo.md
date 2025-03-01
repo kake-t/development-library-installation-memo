@@ -4,6 +4,30 @@
 
 OS: Windows11
 
+## Scoop
+
+windowsのパッケージ管理ツールpipxをインストールするのに使う
+
+### インストール方法
+
+powershellで以下を実行
+
+```sh
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+## pipx
+
+pythonのコマンドツールをインストールするのに使用
+
+### インストール方法
+
+```sh
+scoop install pipx
+pipx ensurepath
+```
+
 ## Rye
 
 pythonプロジェクト管理用
