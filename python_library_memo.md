@@ -28,7 +28,13 @@ scoop install pipx
 pipx ensurepath
 ```
 
-## Rye
+## pyenv-win
+
+pythonバージョンの管理ツール [公式](https://github.com/pyenv-win/pyenv-win)
+
+<!-- ## Rye
+
+pyenvと競合したので一旦見送る
 
 pythonプロジェクト管理用
 
@@ -76,4 +82,4 @@ rye add --dev <library>
 
 ```sh
 rye sync
-```
+``` -->
