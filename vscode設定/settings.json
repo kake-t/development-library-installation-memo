@@ -1,0 +1,39 @@
+{
+	"python.analysis.typeCheckingMode": "basic",
+	"editor.formatOnSave": true,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports.ruff": "always",
+		"source.organizeImports.biome": "always",
+		"quickfix.biome": "always",
+		"source.fixAll.biome": "always"
+	},
+	"jest.runMode": "on-demand",
+	"markdownlint.config": {
+		"MD024": {
+			"siblings_only": true
+		}
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff",
+		"editor.formatOnType": true
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2,
+		"editor.insertSpaces": true
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
+}
