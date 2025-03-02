@@ -1,4 +1,4 @@
-# python用ライブラリメモ
+# python 用ライブラリメモ
 
 ## 前提
 
@@ -6,11 +6,11 @@ OS: Windows11
 
 ## Scoop
 
-windowsのパッケージ管理ツールpipxをインストールするのに使う
+windows のパッケージ管理ツール pipx をインストールするのに使う
 
 ### インストール方法
 
-powershellで以下を実行
+powershell で以下を実行
 
 ```sh
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -19,7 +19,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 ## pipx
 
-pythonのコマンドツールをインストールするのに使用
+python のコマンドツールをインストールするのに使用
 
 ### インストール方法
 
@@ -30,7 +30,7 @@ pipx ensurepath
 
 ## pyenv-win
 
-pythonバージョンの管理ツール [公式](https://github.com/pyenv-win/pyenv-win)
+python バージョンの管理ツール [公式](https://github.com/pyenv-win/pyenv-win)
 
 <!-- ## Rye
 
